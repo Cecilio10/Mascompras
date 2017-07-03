@@ -137,6 +137,57 @@ footer{
   margin-bottom: 50px;
 }
 
+.section_celulares{
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+
+.section_accesorios{
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.ariticulo_accesorios{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+
+}
+
+.section_celulares{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+
+.articulo_celulares{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
 .col_productos_mas_vendidos{
   flex: 1;
   margin-bottom: 10px;
@@ -517,6 +568,7 @@ label {
       margin-bottom:150px;
     }
 
+
     header{
       flex-direction: column;
       height: 110px;
@@ -534,6 +586,8 @@ label {
 
     .section_novedades{
     margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
     }
 
     .section_medios{
@@ -554,7 +608,7 @@ label {
     }
 
     .col_productos_mas_vendidos{
-      margin-bottom: 150px;
+      margin-bottom: 100px;
     }
 
 }
@@ -584,14 +638,4 @@ label {
     margin-bottom: 100px;
   }
 
-}
-
-@media only screen and (max-width: 1024px) {
-  footer{
-    height: 200px;
-  }
-
-  .col_productos_novedades{
-    margin-bottom: 100px;
-  }
 }

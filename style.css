@@ -543,7 +543,7 @@ label {
 }
 
 /* Media querys smartphone*/
-@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+@media only screen and (min-width : 375px) and (max-width : 667px){
     footer {
     }
 
@@ -603,6 +603,7 @@ label {
       margin-bottom: 100px;
       justify-content: center;
       align-items: center;
+      flex-flow: column;
     }
 
     .articulo_categoria{

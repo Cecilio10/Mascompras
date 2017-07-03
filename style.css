@@ -43,11 +43,6 @@ header nav a{
   flex-grow: 1 ;
 }
 
-header nav a:hover{
-
-
-}
-
 html{
   position: relative;
   min-height: 100%;
@@ -145,7 +140,6 @@ footer{
   padding: 20px;
   margin-bottom: 50px;
 }
-
 
 .section_accesorios{
   display: flex;
@@ -544,10 +538,6 @@ label {
 
 /* Media querys smartphone*/
 @media only screen and (min-width : 375px) and (max-width : 667px){
-    footer {
-    }
-
-
     .section_envios{
       display: none;
     }
@@ -580,6 +570,10 @@ label {
     .logo{
       flex: 0;
     }
+
+    .buscador{
+      display: none;
+        }
 
     header .logo img{
       margin-left: 0;
@@ -646,4 +640,215 @@ label {
     .ariticulo_accesorios{
       margin-bottom: 50px;
     }
+}
+
+@media only screen and (min-width : 414px) and (max-width : 736px){
+
+      .section_envios{
+        display: none;
+      }
+      .redes_sociales{
+        flex-flow: row;
+        width: 100%;
+      }
+
+      .buscador{
+        display: none;
+      }
+
+      .col_productos_novedades{
+        margin-bottom: 200px;
+      }
+      .section_dell{
+        margin-bottom:150px;
+        flex-flow: column;
+      }
+
+
+      header{
+        flex-direction: column;
+        height: 110px;
+        justify-content: center;
+
+      }
+
+      .logo{
+        flex: 0;
+      }
+
+      header .logo img{
+        margin-left: 0;
+      }
+
+      .section_novedades{
+      margin-bottom: 0;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .section_accesorios{
+        flex-flow: column;
+      }
+
+      .section_laptops{
+        flex-flow: column;
+      }
+
+      .article_laptops{
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .section_medios{
+        display: none;
+      }
+
+      .section_ayuda{
+        display: block;
+        margin-bottom: 150px;
+      }
+
+      .section_categoria{
+        margin-bottom: 100px;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+      }
+
+      .articulo_categoria{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+
+      }
+      .section_sugerencias_iphone{
+        margin-bottom: 100px;
+      }
+
+      .col_productos_mas_vendidos{
+        margin-bottom: 150px;
+      }
+
+      .section_mas_vendido{
+        margin-bottom: 0;
+        flex-flow: column;
+      }
+
+      .articulo_celulares{
+        margin-bottom: 50px;
+      }
+
+      .ariticulo_accesorios{
+        margin-bottom: 50px;
+      }
+
+      .buscador{
+        flex-flow: row;
+      }
+}
+
+@media only screen and (max-width : 414px) {
+  .section_envios{
+    display: none;
+  }
+  .redes_sociales{
+    flex-flow: row;
+    width: 100%;
+  }
+
+  .buscador{
+    display: none;
+  }
+
+  .col_productos_novedades{
+    margin-bottom: 200px;
+  }
+  .section_dell{
+    margin-bottom:150px;
+    flex-flow: column;
+  }
+
+
+  header{
+    flex-direction: column;
+    height: 110px;
+    justify-content: center;
+
+  }
+
+  .logo{
+    flex: 0;
+  }
+
+  header .logo img{
+    margin-left: 0;
+  }
+
+  .section_novedades{
+  margin-bottom: 0;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .section_accesorios{
+    flex-flow: column;
+  }
+
+  .section_laptops{
+    flex-flow: column;
+  }
+
+  .article_laptops{
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .section_medios{
+    display: none;
+  }
+
+  .section_ayuda{
+    display: block;
+    margin-bottom: 150px;
+  }
+
+  .section_categoria{
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+  }
+
+  .articulo_categoria{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+
+  }
+  .section_sugerencias_iphone{
+    margin-bottom: 100px;
+  }
+
+  .col_productos_mas_vendidos{
+    margin-bottom: 150px;
+  }
+
+  .section_mas_vendido{
+    margin-bottom: 0;
+    flex-flow: column;
+  }
+
+  .articulo_celulares{
+    margin-bottom: 50px;
+  }
+
+  .ariticulo_accesorios{
+    margin-bottom: 50px;
+  }
+
+  .buscador{
+    flex-flow: row;
+  }
+
+
 }

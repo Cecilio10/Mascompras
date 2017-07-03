@@ -631,7 +631,7 @@ label {
     }
 
     .col_productos_mas_vendidos{
-      margin-bottom: 100px;
+      margin-bottom: 150px;
     }
 
     .section_mas_vendido{
@@ -640,6 +640,10 @@ label {
     }
 
     .articulo_celulares{
+      margin-bottom: 50px;
+    }
+
+    .ariticulo_accesorios{
       margin-bottom: 50px;
     }
 }

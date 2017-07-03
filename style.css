@@ -563,6 +563,7 @@ label {
 
     .col_productos_novedades{
       margin-bottom: 200px;
+      padding: 0;
     }
     .section_dell{
       margin-bottom:150px;
@@ -602,15 +603,33 @@ label {
 
     .section_categoria{
       margin-bottom: 100px;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
     }
 
+    .articulo_categoria{
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+
+    }
     .section_sugerencias_iphone{
       margin-bottom: 100px;
     }
 
     .col_productos_mas_vendidos{
+      margin-bottom: 100px;
     }
 
+    .section_mas_vendido{
+      margin-bottom: 0;
+    }
+
+    .articulo_celulares{
+      margin-bottom: 50px;
+    }
 }
 
 
@@ -684,8 +703,9 @@ label {
 
 }
 
+/*
 /*Media querys tablet*/
-
+/*
 @media only screen and (max-width: 768px) {
   .section_medios{
     display: none;
@@ -709,4 +729,4 @@ label {
     margin-bottom: 100px;
   }
 
-}
+}*/

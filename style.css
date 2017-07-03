@@ -1,0 +1,597 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Alegreya Sans', sans-serif
+}
+.contenedor{
+  background: #white;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+
+header{
+  background: #F8FF14;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  height: 70px;
+}
+
+header .logo img{
+  margin-left: 50px;
+}
+
+
+header nav{
+  display: flex;
+  flex-wrap: row wrap;
+  align-items: center;
+  flex: 1;
+}
+
+header nav a{
+  color: black;
+  text-align: center;
+  padding: 10px;
+  flex-grow: 1 ;
+}
+
+header nav a:hover{
+
+
+}
+
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+  margin: 0 0;
+}
+
+main{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  flex: 1;
+  min-height: calc(100vh - 70px);
+}
+
+footer{
+  background: #d4d4d4;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+  bottom: 0;
+  flex: 1;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.logo{
+  order: 1;
+  flex: 1;
+}
+
+.logo :active{
+  border: 0;
+}
+
+.buscador{
+  order: 2;
+  flex: 2;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.categorias{
+  order: 3;
+}
+.buscador input{
+  width: 90%;
+}
+
+.section_medios{
+  flex: 1;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.section_medios p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.mediomar{
+  display: flex;
+  flex: 1;
+}
+
+.col_left_medios{
+  flex: 1 ;
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+.section_mas_vendido{
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.col_productos_mas_vendidos{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+
+.imagenes_productos_vendidos p{
+  color: black;
+  align-items: center;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.imagenes_productos_vendidos p:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.imagenes_productos_nuevos p {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+}
+
+.imagenes_productos_nuevos p:hover{
+  text-decoration: underline;
+  color: blue;
+  color:
+}
+
+
+.section_novedades{
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 120px;
+}
+
+.col_productos_novedades{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+.medio_envio{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  width: 40%;
+  flex-flow: row wrap;
+}
+
+.envios{
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.medio_envio img{
+  flex: 1;
+  width: 2em;
+}
+
+.redes_sociales{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+}
+
+.section_envios{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+}
+
+.section_envios p{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 5px;
+}
+
+.redes_sociales p{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 5px;
+}
+
+.medio_envio p{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 5px;
+}
+
+.informacion{
+  width: 20%;
+}
+
+
+/*Los siguientes estilos son de categoria*/
+
+
+.section_categoria{
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 400px;
+}
+
+.imagenes_categoria p{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.imagenes_categoria p:hover{
+  text-decoration: underline;
+  color: blue;
+
+}
+
+.imagenes_productos_cel p:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.articulo_categoria{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  align-items: flex-end;
+  flex-flow: row wrap;
+}
+
+/*Los siguientes estilos son de ayuda*/
+
+label {
+  margin-top:50px;
+  letter-spacing:1px;
+
+}
+
+.section_ayuda{
+  font-family:Arial;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.tabla_ayuda{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+/*Los siguientes estilos son del iphone*/
+
+.section_articulo{
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.nombre_articulo{
+  display:flex;
+}
+
+.article_articulo{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  align-items:flex-end;
+}
+
+.article_informacion{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+}
+
+.section_botones_likes{
+  display: flex;
+  flex-direction: row;
+}
+
+.botones_likes{
+  padding: 30px;
+}
+
+.articulo_caracteristica{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  flex-flow:  row wrap;
+}
+
+.tabla_caracteristicas{
+  padding: 10px;
+}
+.imagenes_categoria p{
+  color: black;
+}
+
+.imagen_articulo{
+  display: flex;
+  align-items: flex-end;
+}
+
+.imagenes_productos_laptop{
+  padding: 40px;
+}
+
+.imagenes_productos_accesorios{
+  padding: 40px;
+}
+
+.imagenes_productos_cel{
+  padding: 20px;
+}
+
+.imagenes_productos_cel p{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+}
+
+.imagenes_productos_laptop p{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+}
+
+.imagenes_productos_laptop p:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.imagenes_productos_accesorios p{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: black;
+}
+
+.imagenes_productos_accesorios p:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.article_sugerencias{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  border-bottom:100px;
+}
+
+.section_sugerencias_iphone{
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.article_sugerencias_iphone{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+/*Los siguientes estilos son de dell*/
+
+.section_dell{
+  display: flex;
+  flex: 1;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 160px;
+}
+
+.articulo_sugerencias{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+  border-bottom:100px;
+
+}
+/* Pagina de laptop*/
+.section_laptops{
+  display: flex;
+  flex: 1;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+.article_laptops{
+  flex: 1;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  flex-flow: row wrap;
+  align-items: flex-end;
+}
+
+/* Media querys smartphone*/
+@media only screen and (max-width: 500px) {
+    footer {
+    }
+
+
+    .section_envios{
+      display: none;
+    }
+
+    .redes_sociales{
+      flex-flow: row;
+      width: 100%;
+    }
+
+    .buscador{
+      flex-flow:  ;
+    }
+
+    .col_productos_novedades{
+      margin-bottom: 100px;
+    }
+    .section_dell{
+      margin-bottom:150px;
+    }
+
+    header{
+      flex-direction: column;
+      height: 110px;
+      justify-content: center;
+
+    }
+
+    .logo{
+      flex: 0;
+    }
+
+    header .logo img{
+      margin-left: 0;
+    }
+
+    .section_novedades{
+    margin-bottom: 0;
+    }
+
+    .section_medios{
+      display: none;
+    }
+
+    .section_ayuda{
+      display: block;
+      margin-bottom: 150px;
+    }
+
+    .section_categoria{
+      margin-bottom: 100px;
+    }
+
+    .section_sugerencias_iphone{
+      margin-bottom: 150px;
+    }
+
+    .col_productos_mas_vendidos{
+      margin-bottom: 150px;
+    }
+
+}
+
+/*Media querys tablet*/
+
+@media only screen and (max-width: 768px) {
+  .section_medios{
+    display: none;
+  }
+
+  .section_mas_vendido{
+    flex-flow: column;
+  }
+
+  .section_envios{
+    flex-flow: row;
+  }
+
+  footer{
+    height: 120px;
+    flex-direction: column;
+
+  }
+
+  .section_categoria{
+    margin-bottom: 100px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+  footer{
+    height: 200px;
+  }
+
+  .col_productos_novedades{
+    margin-bottom: 100px;
+  }
+}

@@ -172,7 +172,7 @@ footer{
   margin-bottom: 10px;
   display: flex;
   justify-content: space-around;
-  padding: 5px;
+  padding: 20px;
   flex-flow: row wrap;
   align-items: flex-end;
 }
@@ -388,7 +388,7 @@ label {
   margin-bottom: 10px;
   display: flex;
   justify-content: space-around;
-  padding: 5px;
+  padding: 2px;
   align-items:flex-end;
 }
 
@@ -563,7 +563,6 @@ label {
 
     .col_productos_novedades{
       margin-bottom: 200px;
-      padding: 0;
     }
     .section_dell{
       margin-bottom:150px;
@@ -589,7 +588,6 @@ label {
     margin-bottom: 0;
     justify-content: center;
     align-items: center;
-    padding: 0;
     }
 
     .section_medios{
@@ -603,13 +601,11 @@ label {
 
     .section_categoria{
       margin-bottom: 100px;
-      padding: 0;
       justify-content: center;
       align-items: center;
     }
 
     .articulo_categoria{
-      padding: 0;
       justify-content: center;
       align-items: center;
       margin-bottom: 50px;
@@ -631,102 +627,3 @@ label {
       margin-bottom: 50px;
     }
 }
-
-
-/* Media querys smartphone plus*/
-@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
-    footer {
-    }
-
-
-    .section_envios{
-      display: none;
-    }
-
-    .redes_sociales{
-      flex-flow: row;
-      width: 100%;
-    }
-
-    .buscador{
-      flex-flow:  ;
-    }
-
-    .col_productos_novedades{
-      margin-bottom: 100px;
-    }
-    .section_dell{
-      margin-bottom:150px;
-    }
-
-
-    header{
-      flex-direction: column;
-      height: 110px;
-      justify-content: center;
-
-    }
-
-    .logo{
-      flex: 0;
-    }
-
-    header .logo img{
-      margin-left: 0;
-    }
-
-    .section_novedades{
-    margin-bottom: 0;
-    justify-content: center;
-    align-items: center;
-    }
-
-    .section_medios{
-      display: none;
-    }
-
-    .section_ayuda{
-      display: block;
-      margin-bottom: 150px;
-    }
-
-    .section_categoria{
-      margin-bottom: 100px;
-    }
-
-    .section_sugerencias_iphone{
-      margin-bottom: 150px;
-    }
-
-    .col_productos_mas_vendidos{
-    }
-
-}
-
-/*
-/*Media querys tablet*/
-/*
-@media only screen and (max-width: 768px) {
-  .section_medios{
-    display: none;
-  }
-
-  .section_mas_vendido{
-    flex-flow: column;
-  }
-
-  .section_envios{
-    flex-flow: row;
-  }
-
-  footer{
-    height: 120px;
-    flex-direction: column;
-
-  }
-
-  .section_categoria{
-    margin-bottom: 100px;
-  }
-
-}*/

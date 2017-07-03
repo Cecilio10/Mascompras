@@ -543,7 +543,79 @@ label {
 }
 
 /* Media querys smartphone*/
-@media only screen and (max-width: 500px) {
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+    footer {
+    }
+
+
+    .section_envios{
+      display: none;
+    }
+
+    .redes_sociales{
+      flex-flow: row;
+      width: 100%;
+    }
+
+    .buscador{
+      flex-flow:  ;
+    }
+
+    .col_productos_novedades{
+      margin-bottom: 200px;
+    }
+    .section_dell{
+      margin-bottom:150px;
+    }
+
+
+    header{
+      flex-direction: column;
+      height: 110px;
+      justify-content: center;
+
+    }
+
+    .logo{
+      flex: 0;
+    }
+
+    header .logo img{
+      margin-left: 0;
+    }
+
+    .section_novedades{
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    }
+
+    .section_medios{
+      display: none;
+    }
+
+    .section_ayuda{
+      display: block;
+      margin-bottom: 150px;
+    }
+
+    .section_categoria{
+      margin-bottom: 100px;
+    }
+
+    .section_sugerencias_iphone{
+      margin-bottom: 100px;
+    }
+
+    .col_productos_mas_vendidos{
+    }
+
+}
+
+
+/* Media querys smartphone plus*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
     footer {
     }
 
@@ -608,7 +680,6 @@ label {
     }
 
     .col_productos_mas_vendidos{
-      margin-bottom: 100px;
     }
 
 }

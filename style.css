@@ -566,6 +566,7 @@ label {
     }
     .section_dell{
       margin-bottom:150px;
+      flex-flow: column;
     }
 
 
@@ -590,6 +591,19 @@ label {
     align-items: center;
     }
 
+    .section_accesorios{
+      flex-flow: column;
+    }
+
+    .section_laptops{
+      flex-flow: column;
+    }
+
+    .article_laptops{
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+    }
     .section_medios{
       display: none;
     }
@@ -622,6 +636,7 @@ label {
 
     .section_mas_vendido{
       margin-bottom: 0;
+      flex-flow: column;
     }
 
     .articulo_celulares{

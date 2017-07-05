@@ -643,7 +643,6 @@ label {
 }
 
 @media only screen and (min-width : 414px) and (max-width : 736px){
-
       .section_envios{
         display: none;
       }
